@@ -1,0 +1,153 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  flex-direction: column;
+  background: #2b2b2b;
+  color: white;
+}
+
+a {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6b9eff;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.3em;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+button {
+  background: white;
+  border: none;
+  border-radius: 20px;
+  height: 42px;
+  width: 230px;
+  outline: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #6b9eff;
+}
+
+.wrapper {
+  padding: 30px 70px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.lovely {
+  font-weight: 800;
+  color: #ffb7b7;
+}
+
+.primary-blue {
+  color: #6b9eff;
+}
+
+.home-section {
+  height: 60vh;
+  gap: 12em;
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 8em;
+  flex: 1;
+}
+
+.home__intro--description {
+  width: 70%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  font-size: 0.7em;
+}
+
+.how-works {
+  padding-top: 2em;
+  color: #2b2b2b;
+  background-color: #ededed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+}
+
+.how-works__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.how-works__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+}
+
+.btn-secondary {
+  background-color: #6b9eff;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: #6b9eff;
+}
